@@ -1,0 +1,4 @@
+[tls]
+  [[tls.certificates]]
+    certFile = "/etc/certs/_wildcard.docker.localhost.pem"
+    keyFile = "/etc/certs/_wildcard.docker.localhost-key.pem"

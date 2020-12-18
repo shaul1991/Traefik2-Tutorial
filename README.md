@@ -5,7 +5,6 @@
 ## 설명
 - `*.docker.localhost` 인증서가 적용되어 있습니다.
 - `*.docker.localhost:80`으로 접속시 `*.docker.localhost:443`으로 `redirection` 됩니다.
-- 네트워크 `traefik-proxy` 사용하여 `Traefik`과 `Whoami`가 연동됩니다.
 
 ## 시작하기
 
@@ -23,9 +22,3 @@ $ make erase
 ```
 localhost:8080 으로 접속
 ```
-
-### Whoami 확인
-```
-whoami.docker.localhost 으로 접속
-```
-
